@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main-print sum of 2 numbers.
  * @argc: number of commandline arguments.
@@ -20,3 +22,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+
+	return (0);
+}
