@@ -156,7 +156,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	while (*(next_prod + 1))
 		next_prod++;
 
-	for (; *final_prod != 'x'; final_prod--)
+	for (; *final_prod != 'x'; next_len--)
 	{
 		num = (*final_prod - '0') + (*next_prod - '0');
 		num += tens;
