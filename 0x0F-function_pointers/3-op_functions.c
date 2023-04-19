@@ -41,6 +41,7 @@ int op_mul(int a, int b)
  * op_div - divides two integers
  * @a: the first int
  * @b: the second int
+ * 
  * Return: the quotient
  */
 
@@ -53,6 +54,7 @@ int op_div(int a, int b)
  * op_mod - modulo two integers
  * @a: the first int
  * @b: the second int
+ *
  * Return: the remainder
  */
 
