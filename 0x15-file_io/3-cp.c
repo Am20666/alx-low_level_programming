@@ -6,7 +6,7 @@
  * @file_from: file_from.
  * @file_to: file_to.
  * @argv: arguments vector.
- * 
+ *
  * Return: no return.
  */
 void error_file(int file_from, int file_to, char *argv[])
@@ -27,7 +27,7 @@ void error_file(int file_from, int file_to, char *argv[])
  * main - check the code for Holberton school students.
  * @argc: number of arguments
  * @argv: arguments vector.
- * 
+ *
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
