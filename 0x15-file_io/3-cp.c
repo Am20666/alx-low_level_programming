@@ -6,6 +6,7 @@
  * @file_from: file_from.
  * @file_to: file_to.
  * @argv: arguments vector.
+ * 
  * Return: no return.
  */
 void error_file(int file_from, int file_to, char *argv[])
@@ -26,8 +27,9 @@ void error_file(int file_from, int file_to, char *argv[])
  * main - check the code for Holberton school students.
  * @argc: number of arguments
  * @argv: arguments vector.
+ * 
  * Return: Always 0.
-*/
+ */
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, err_close;
@@ -41,7 +43,7 @@ int main(int argc, char *argv[])
 	}
 
 	file_from = open(argv[1], O_RDONLY);
-	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | 0_APPEND, 0664);
+	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	error_file(file_from, file_to, argv);
 
 	nchars = 1024;
